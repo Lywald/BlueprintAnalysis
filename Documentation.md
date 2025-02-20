@@ -23,12 +23,12 @@ An advanced, all-in-one dashboard for analyzing Unreal Engine Blueprints. This p
   Automatically check for unused variables, naming convention issues, and deprecated nodes.
 
 - **GPT Integration (Optional):**  
-  Leverage GPT for advanced analysis, refactoring suggestions, and generating documentation directly from your Blueprints.
+  Leverage GPT for advanced analysis, refactoring suggestions, and generating documentation directly from your Blueprints. Note: the plugin will by default load the API key from the system environment variable "OPENAI_API_KEY", so you don't have to retype it each time.
 
 ## Installation
 
 **Required Dependencies:**  
-   This plugin requires the **WebBrowser** plugin for its web widget integration. Ensure it is enabled in your project.
+   This plugin requires the **Web Browser** and **Editor Scripting Utilities** plugin for its web widget integration. Ensure it is enabled in your project.
 
 ## Usage
 
